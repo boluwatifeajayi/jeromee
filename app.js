@@ -20,10 +20,12 @@ function playOrPauseSong(){
     if(song.paused){
         song.play();
         $(".fa-pause i").attr("src", ".fa-play");
+        document.getElementById("pause").style.display = 'block';
     }
     else{
         song.pause();
         $(".fa-play i").attr("src", ".fa-pause");
+        document.getElementById("pause").style.display = 'none';
     }
 }
 
