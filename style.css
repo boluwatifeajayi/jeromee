@@ -310,7 +310,47 @@ html{
     top: 400px;
     left: 23%;
 }
+footer{
+    margin-bottom: 0;
+  width: 100%;
+  background-color: #262626;
+  color:white;
+  text-align: center;
+  padding-top: 20px;
+    padding: 1rem;
+    position: absolute;
+    top: 240%;
+    
+}
     }
+
+@media(max-height: 700px){
+    footer{
+    margin-bottom: 0;
+  width: 100%;
+  background-color: #262626;
+  color:white;
+  text-align: center;
+  padding-top: 20px;
+    padding: 1rem;
+    position: absolute;
+    top: 290%;
+    
+}
+@media(max-height: 600px){
+    footer{
+    margin-bottom: 0;
+  width: 100%;
+  background-color: #262626;
+  color:white;
+  text-align: center;
+  padding-top: 20px;
+    padding: 1rem;
+    position: absolute;
+    top: 300%;
+    
+}
+}
 
 
 
